@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="John Fredy Baquero Celis - Desarrollador Web Profesional" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link type="image/x-icon" href="public/image/codeico.png" rel="icon" />
+    <link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
+    <title>Alejandro David Carmona Parada - Desarrollador Web</title>
+</head>
+
+<body>
+    <div class="loader">
+        <div class="loader__container">
+            <div class="loader__hexagon"></div>
+            <p class="loader__message">Cargando portafolio...</p>
+        </div>
+    </div>
+
+    <div class="blanketBody"></div>
+
+    <div class="control-actions">
+        <span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
+    </div>
+
+    <div class="container-master">
+        <!-- Éste es el menú para dispositivos móviles y tablet's -->
+        <div class="myself__container__menu">
+            <div class="myself__data">
+                <div class="myself__data__container-avatar">
+                    <div class="myself__data__avatar"></div>
+                </div>
+                <div class="myself__data__info">
+                    <h4 class="myself__data__info__fullname">Alejandro David Carmona Parada</h4>
+                    <p class="myself__data__info__role">Desarrollador Full Stack</p>
+                </div>
+            </div>
+
+            <ul class="myself__menu">
+                <a href="#home" class="myself__menu__link myself__menu__link--active">
+                    <li class="myself__menu__item">
+                        <span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span> Inicio
+                    </li>
+                </a>
+                <a href="#welcome" class="myself__menu__link">
+                    <li class="myself__menu__item">
+                        <span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span> Acerca de Mi
+                    </li>
+                </a>
+                <a href="#portfolio" class="myself__menu__link">
+                    <li class="myself__menu__item">
+                        <span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span> Mi Portafolio
+                    </li>
+                </a>
+                <a href="#contact" class="myself__menu__link">
+                    <li class="myself__menu__item">
+                        <span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span> Contáctame
+                    </li>
+                </a>
+                <a href="https://medium.com/@jfbaquerocelis" target="_blank" class="myself__menu__link">
+                    <li class="myself__menu__item">
+                        <span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fab fa-medium-m fa-stack-1x fa-inverse"></i>
+						</span> Medium
+                    </li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- Esta es la sección principal, donde se muestra la información básica -->
+        <section class="container__myself">
+            <span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
+
+            <article class="myself">
+                <div class="myself__profile">
+                    <div class="myself__container__avatar">
+                        <div class="myself__avatar"></div>
+                    </div>
+                    <h1 class="myself__fullname">Alejandro David Carmona Parada</h1>
+                    <p class="myself__description">Ingeniero en informatica - Desarrollador Full Stack</p>
+                    <p class="myself__description">Programador en <a href="http://www.minci.gob.ve/tag/complejo-editorial-alfredo-maneiro/" class="jf-links myself__community" target="_blank">complejo editorial alfredo maneiro</a></p>
+                </div>
+                <div class="myself__footer">
+                    <div class="myself__footer__by">
+                        <p>Hecho con <i class="fa fa-heart" style="color:#e75353;"></i></p>
+                    </div>
+                    <div class="myself__footer__social">
+                        <a class="myself__footer__link" href="https://twitter.com/halternx" target="_blank">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a class="myself__footer__link" href="https://github.com/alejandro0429" target="_blank">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+        <section class="container__articles">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <a href="#welcome" class="menu-list__link menu-list__link--active">
+                        <li class="menu-list__item">Acerca de Mi</li>
+                    </a>
+                    <a href="#portfolio" class="menu-list__link">
+                        <li class="menu-list__item">Mi Portafolio</li>
+                    </a>
+                    <a href="#contact" class="menu-list__link">
+                        <li class="menu-list__item">Contáctame</li>
+                    </a>
+                </ul>
+            </nav>
+
+            <article class="welcome article--show" id="welcome">
+                <h2 class="welcome__title">¡Bienvenido!</h2>
+                <p class="welcome__description">Mi nombre es <strong>Alejandro</strong>, soy desarrollador y vivo en la ciudad de Montería. Mi lenguaje de programación favorito es <strong>Laravel</strong>, con él he aprendido muchas cosas y con él desarrollo actualmente. Mi objetivo
+                    es usarlo como herramienta para crear soluciones tecnológicas a la medida de cualquier necesidad. <br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o proyecto. <br /><br /></p>
+
+                <h2 class="welcome__title">Stack de Desarrollo</h2>
+                <p class="welcome__description">A lo largo de los años en los que me he desempeñado como desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p>
+
+                <div class="welcome__container-stack">
+                    <!-- Frontend -->
+                    <div class="welcome__stack">
+                        <h4 class="welcome__stack__title">Frontend</h4>
+                        <div class="welcome__stack__tools">
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-html5" style="color:#f16529;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-css3-alt" style="color:#0170ba;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-js" style="color:#ffe629; background-color: #2d2d2d;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-bootstrap" style="color:#563d7c;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-sass" style="color:#c6538c;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-laravel" style="color:#E04E39;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-angular" style="color:#E04E39;"></i>
+                            </div>
+                            <!-- <div class="welcome__stack__tool">
+								<i class="fab fa-vuejs" style="color:#4fc08d;"></i>
+							</div> -->
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-react" style="color:#2196F3;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Backend -->
+                    <div class="welcome__stack">
+                        <h4 class="welcome__stack__title">Backend</h4>
+                        <div class="welcome__stack__tools">
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-node" style="color:#43853d;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-npm" style="color:#ED1C24;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-docker" style="color:#0091e2;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Herramientas de Trabajo -->
+                    <div class="welcome__stack">
+                        <h4 class="welcome__stack__title">Gestión de proyectos</h4>
+                        <div class="welcome__stack__tools">
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-git-alt" style="color:#f64e27;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Databases -->
+                    <div class="welcome__stack">
+                        <h4 class="welcome__stack__title">Bases de datos</h4>
+                        <div class="welcome__stack__tools">
+                            <div class="welcome__stack__tool">
+                                <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" />
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="postgresql" />
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Servicios en la nube -->
+                    <!--div class="welcome__stack">
+                        <h4 class="welcome__stack__title">Servicios en la nube</h4>
+                        <div class="welcome__stack__tools">
+                             <div class="welcome__stack__tool">
+								<i class="fab fa-aws" style="color:#13aa52;"></i>
+							</div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-digital-ocean" style="color:#0069ff;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" />
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="googlecloud" />
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <img src="https://www.vectorlogo.zone/logos/zeit/zeit-icon.svg" alt="zeithq" />
+                            </div>
+                        </div>
+                    </div-->
+                    <!-- Servidores -->
+                    <!--div class="welcome__stack">
+                        <h4 class="welcome__stack__title">Servidores</h4>
+                        <div class="welcome__stack__tools">
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-linux" style="color:#2d2d2d;"></i>
+                            </div>
+                            <div class="welcome__stack__tool">
+                                <i class="fab fa-ubuntu" style="color:#e95420;"></i>
+                            </div>
+                        </div>
+                    </div-->
+                </div>
+            </article>
+
+            <article class="portfolio" id="portfolio">
+                <h2 class="portfolio__title">Mi Portafolio</h2>
+                <p class="portfolio__description">En esta sección encontrarás los proyectos en los que he trabajado, también encontrarás algunas pruebas e inventos. Todo lo que sé hacer con las herramientas que uso.</p>
+                <blockquote class="portfolio__blockquote">Puedes encontrar más información sobre mis proyectos en mis perfiles de <strong>Github</strong></blockquote>
+
+                <section class="portfolio__works">
+                    <!-- TAXADMINISTRADOR -->
+                    <article class="portfolio__works__item" id="taxadministrador">
+                        <div class="portfolio__works__item__header">
+                            <img src="public/image/taxadministrador.png" class="portfolio__works__item__header__logo">
+                            <h3 class="portfolio__works__item__header__title">
+                                Condominio-once
+                            </h3>
+                        </div>
+                        <p class="portfolio__works__item__resume">Aplicación web enfocada en el proceso de pagos y facturas de un condominio, y gestion de usuarios <strong>Condominio once</strong> <strong></strong></p>
+                        <div class="portfolio__works__tools">
+                            <div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+                            <div>
+                                <i class="fab fa-laravel fa-lg" style="color:#e54616;"></i>
+                                <i class="fab fa-bootstrap fa-lg" style="color:#8816e5;"></i>
+                                <i class="fab fa-css3-alt fa-lg" style="color:#0170ba;;"></i>
+                                <i class="fab fa-node-js fa-lg" style="color:#026e00;"></i>
+                                <i class="fab fa-sass fa-lg" style="color:#c6538c;"></i>
+                                <i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+                                <i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- BUSSER -->
+                    <article class="portfolio__works__item" id="busser">
+                        <div class="portfolio__works__item__header">
+                            <img src="public/image/busser.png" class="portfolio__works__item__header__logo">
+                            <h3 class="portfolio__works__item__header__title">
+                                <a href="https://play.google.com/store/apps/details?id=com.metrosinu.busser.katana&hl=es" target="_blank" class="portfolio__works__item__header__title__link"><i class="fa fa-link"></i></a>
+                            </h3>
+                        </div>
+                        <p class="portfolio__works__item__resume">Es un sistema de movilidad urbana que permite a los usuarios del servicio de transporte público observar los buses, rutas y conductores en tiempo real a través de una aplicación móvil.</p>
+                        <div class="portfolio__works__tools">
+                            <div class="portfolio__works__tools__role">Desarrollador Backend</div>
+                            <div>
+                                <i class="fab fa-node-js fa-lg" style="color:#026e00;"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- BUSSER -->
+                    <article class="portfolio__works__item" id="busser">
+                        <div class="portfolio__works__item__header">
+                            <img src="public/image/ceam-2.jpg" class="portfolio__works__item__header__logo">
+                            <h3 class="portfolio__works__item__header__title">
+                                <a href="https://poderopediave.org/empresa/complejo-editorial-alfredo-maneiro/" target="_blank" class="portfolio__works__item__header__title__link"><i class="fa fa-link"></i></a>
+                            </h3>
+                        </div>
+                        <p class="portfolio__works__item__resume">Es un sistema que permite a los empleados públicos observar los los pagos, administrar los items y facturar recibos, en tiempo real a través de un Servidor web.</p>
+                        <div class="portfolio__works__tools">
+                            <div class="portfolio__works__tools__role">Desarrollador Backend</div>
+                            <div>
+                                <i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+                                <i class="fab fa-php fa-lg" style="color:#0040ff;"></i>
+                                <i class="fab fa-node-js fa-lg" style="color:#026e00;"></i>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </article>
+
+            <article class="contact" id="contact">
+
+                redes sociales ¡Te esperamos!</p>
+
+                <div class="contact__social">
+                    <a class="contact__social__link" href="https://www.instagram.com/halternx/" target="_blank">
+                        <i class="fab fa-instagram" style="color: palevioletred;"></i>
+                    </a>
+                    <a class="contact__social__link" href="https://twitter.com/halternx" target="_blank">
+                        <i class="fab fa-twitter-square" style="color: #2196F3;"></i>
+                    </a>
+                    <a class="contact__social__link" href="https://github.com/alejandro0429" target="_blank">
+                        <i class="fab fa-github-square" style="color: #2d2d2d;"></i>
+                    </a>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+    <script src="public/js/main.js"></script>
+</body>
+
+</html>
