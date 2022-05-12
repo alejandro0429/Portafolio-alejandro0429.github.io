@@ -385,6 +385,6 @@
 }
 
 .tex{
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    left: 30px;
 }
