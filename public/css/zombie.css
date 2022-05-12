@@ -383,3 +383,8 @@
     opacity: 0.5;
     z-index: 3;
 }
+
+.tex{
+    align-items: center;
+    justify-content: center;
+}
